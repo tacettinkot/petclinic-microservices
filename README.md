@@ -1772,7 +1772,7 @@ ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -i ${WORKSPACE}/
 
 ```bash
 git add .
-git commit -m 'added ansible static inventory host.ini for testing'
+git commit -m 'added ansible static inventory hosts.ini for testing'
 git push --set-upstream origin feature/msp-16
 ```
 
